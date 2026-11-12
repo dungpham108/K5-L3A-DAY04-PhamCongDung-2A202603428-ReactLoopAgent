@@ -61,10 +61,10 @@ MSSV: 2A202603428
 
 | Chỉ số | `eval_before.json` | `eval_after.json` |
 |---|---|---|
-| Điểm tổng | `98.27` / 100 | `[Điền Score AFTER]` / 100 |
-| Điểm case đã chọn (H7) | `72` / 100 | `[Điền H7 AFTER]` / 100 |
-| Số model calls | `[Điền Model calls BEFORE]` | `[Điền Model calls AFTER]` |
-| Token, chi phí nếu có | `[Điền Tokens BEFORE]` tokens (`$[Điền Cost BEFORE]`) | `[Điền Tokens AFTER]` tokens (`$[Điền Cost AFTER]`) |
+| Điểm tổng | `98.27` / 100 | `97.95` / 100 |
+| Điểm case đã chọn (H7) | `72` / 100 | `66` / 100 |
+| Số model calls | `70` | `76` |
+| Token, chi phí nếu có | `186466` tokens (`$0.020458`) | `236475` tokens (`$0.016092`) |
 
 *(Cả hai lần chạy đều giữ nguyên cùng `provider: openrouter`, `model: deepseek/deepseek-v4-flash-0731`, `judge_model`, `max_steps=8` và bộ 22 cases).*
 
